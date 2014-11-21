@@ -14,7 +14,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color solarized
+colorscheme darkburn
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -198,8 +198,8 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 " Keybindings for plugin toggle
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
-nmap <F5> :TagbarToggle<cr>
-nmap <F6> :NERDTreeToggle<cr>
+nmap <F7> :TagbarToggle<cr>
+nmap <F8> :NERDTreeToggle<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
